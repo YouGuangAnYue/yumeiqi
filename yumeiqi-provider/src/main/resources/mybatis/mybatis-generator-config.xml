@@ -33,50 +33,50 @@
             <property name="useActualColumnNames" value="false"/>
             <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
         </table>
-        <table schema="ymq_cloth" tableName="ymq_cloth" domainObjectName="YmqClothDao" >
-            <property name="useActualColumnNames" value="false"/>
-            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
-        </table>
-        <table schema="ymq_department" tableName="ymq_department" domainObjectName="YmqDepartmentDao" >
-            <property name="useActualColumnNames" value="false"/>
-            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
-        </table>
-        <table schema="ymq_employee" tableName="ymq_employee" domainObjectName="YmqEmployeeDao" >
-            <property name="useActualColumnNames" value="false"/>
-            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
-        </table>
-        <table schema="ymq_garment" tableName="ymq_garment" domainObjectName="YmqGarmentDao" >
-            <property name="useActualColumnNames" value="false"/>
-            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
-        </table>
-        <table schema="ymq_garment_type" tableName="ymq_garment_type" domainObjectName="YmqGarmentTypeDao" >
-            <property name="useActualColumnNames" value="false"/>
-            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
-        </table>
-        <table schema="ymq_job" tableName="ymq_job" domainObjectName="YmqJobDao" >
-            <property name="useActualColumnNames" value="false"/>
-            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
-        </table>
-        <table schema="ymq_order" tableName="ymq_order" domainObjectName="YmqOrderDao" >
-            <property name="useActualColumnNames" value="false"/>
-            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
-        </table>
-        <table schema="ymq_order_detail" tableName="ymq_order_detail" domainObjectName="YmqOrderDetailDao" >
-            <property name="useActualColumnNames" value="false"/>
-            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
-        </table>
-        <table schema="ymq_relationship" tableName="ymq_relationship" domainObjectName="YmqRelationshipDao" >
-            <property name="useActualColumnNames" value="false"/>
-            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
-        </table>
-        <table schema="ymq_repository" tableName="ymq_repository" domainObjectName="YmqRepositoryDao" >
-            <property name="useActualColumnNames" value="false"/>
-            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
-        </table>
-        <table schema="ymq_wage" tableName="ymq_wage" domainObjectName="YmqWageDao" >
-            <property name="useActualColumnNames" value="false"/>
-            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
-        </table>
+        <!--<table schema="ymq_cloth" tableName="ymq_cloth" domainObjectName="YmqClothDao" >-->
+            <!--<property name="useActualColumnNames" value="false"/>-->
+            <!--<generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+        <!--</table>-->
+        <!--<table schema="ymq_department" tableName="ymq_department" domainObjectName="YmqDepartmentDao" >-->
+            <!--<property name="useActualColumnNames" value="false"/>-->
+            <!--<generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+        <!--</table>-->
+        <!--<table schema="ymq_employee" tableName="ymq_employee" domainObjectName="YmqEmployeeDao" >-->
+            <!--<property name="useActualColumnNames" value="false"/>-->
+            <!--<generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+        <!--</table>-->
+        <!--<table schema="ymq_garment" tableName="ymq_garment" domainObjectName="YmqGarmentDao" >-->
+            <!--<property name="useActualColumnNames" value="false"/>-->
+            <!--<generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+        <!--</table>-->
+        <!--<table schema="ymq_garment_type" tableName="ymq_garment_type" domainObjectName="YmqGarmentTypeDao" >-->
+            <!--<property name="useActualColumnNames" value="false"/>-->
+            <!--<generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+        <!--</table>-->
+        <!--<table schema="ymq_job" tableName="ymq_job" domainObjectName="YmqJobDao" >-->
+            <!--<property name="useActualColumnNames" value="false"/>-->
+            <!--<generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+        <!--</table>-->
+        <!--<table schema="ymq_order" tableName="ymq_order" domainObjectName="YmqOrderDao" >-->
+            <!--<property name="useActualColumnNames" value="false"/>-->
+            <!--<generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+        <!--</table>-->
+        <!--<table schema="ymq_order_detail" tableName="ymq_order_detail" domainObjectName="YmqOrderDetailDao" >-->
+            <!--<property name="useActualColumnNames" value="false"/>-->
+            <!--<generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+        <!--</table>-->
+        <!--<table schema="ymq_relationship" tableName="ymq_relationship" domainObjectName="YmqRelationshipDao" >-->
+            <!--<property name="useActualColumnNames" value="false"/>-->
+            <!--<generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+        <!--</table>-->
+        <!--<table schema="ymq_repository" tableName="ymq_repository" domainObjectName="YmqRepositoryDao" >-->
+            <!--<property name="useActualColumnNames" value="false"/>-->
+            <!--<generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+        <!--</table>-->
+        <!--<table schema="ymq_wage" tableName="ymq_wage" domainObjectName="YmqWageDao" >-->
+            <!--<property name="useActualColumnNames" value="false"/>-->
+            <!--<generatedKey column="ID" sqlStatement="MYSQL" identity="true" />-->
+        <!--</table>-->
 
 
     </context>

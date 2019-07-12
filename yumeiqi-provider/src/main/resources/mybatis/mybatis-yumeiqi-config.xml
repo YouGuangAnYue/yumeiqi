@@ -25,6 +25,17 @@
         </plugin>
     </plugins>
     <mappers>
-        <mapper resource="com/yumeiqi/specialservice/mapper/PhpcmsContentMapper.xml"/>
+        <mapper resource="com/yumeiqi/mapper/YmqClientDaoMapper.xml"/>
+        <mapper resource="com/yumeiqi/mapper/YmqClothDaoMapper.xml"/>
+        <mapper resource="com/yumeiqi/mapper/YmqDepartmentDaoMapper.xml"/>
+        <mapper resource="com/yumeiqi/mapper/YmqEmployeeDaoMapper.xml"/>
+        <mapper resource="com/yumeiqi/mapper/YmqGarmentDaoMapper.xml"/>
+        <mapper resource="com/yumeiqi/mapper/YmqGarmentTypeDaoMapper.xml"/>
+        <mapper resource="com/yumeiqi/mapper/YmqJobDaoMapper.xml"/>
+        <mapper resource="com/yumeiqi/mapper/YmqOrderDaoMapper.xml"/>
+        <mapper resource="com/yumeiqi/mapper/YmqOrderDetailDaoMapper.xml"/>
+        <mapper resource="com/yumeiqi/mapper/YmqRelationshipDaoMapper.xml"/>
+        <mapper resource="com/yumeiqi/mapper/YmqRepositoryDaoMapper.xml"/>
+        <mapper resource="com/yumeiqi/mapper/YmqWageDaoMapper.xml"/>
     </mappers>
 </configuration>
