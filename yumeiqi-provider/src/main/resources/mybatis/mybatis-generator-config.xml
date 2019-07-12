@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+    <context id="mysql" targetRuntime="MyBatis3">
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://39.105.211.35:3307/yumeiqi?useUnicode\=true"
+                        userId="root"
+                        password="123456">
+        </jdbcConnection>
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="com.yumeiqi.domain" targetProject="${targetJavaProject}">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="com/yumeiqi/mapper" targetProject="${targetMapperProject}">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.yumeiqi.dao" targetProject="${targetJavaProject}">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <table schema="ymq_client" tableName="ymq_client" domainObjectName="YmqClientDao" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+        <table schema="ymq_cloth" tableName="ymq_cloth" domainObjectName="YmqClothDao" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+        <table schema="ymq_department" tableName="ymq_department" domainObjectName="YmqDepartmentDao" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+        <table schema="ymq_employee" tableName="ymq_employee" domainObjectName="YmqEmployeeDao" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+        <table schema="ymq_garment" tableName="ymq_garment" domainObjectName="YmqGarmentDao" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+        <table schema="ymq_garment_type" tableName="ymq_garment_type" domainObjectName="YmqGarmentTypeDao" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+        <table schema="ymq_job" tableName="ymq_job" domainObjectName="YmqJobDao" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+        <table schema="ymq_order" tableName="ymq_order" domainObjectName="YmqOrderDao" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+        <table schema="ymq_order_detail" tableName="ymq_order_detail" domainObjectName="YmqOrderDetailDao" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+        <table schema="ymq_relationship" tableName="ymq_relationship" domainObjectName="YmqRelationshipDao" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+        <table schema="ymq_repository" tableName="ymq_repository" domainObjectName="YmqRepositoryDao" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+        <table schema="ymq_wage" tableName="ymq_wage" domainObjectName="YmqWageDao" >
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="ID" sqlStatement="MYSQL" identity="true" />
+        </table>
+
+
+    </context>
+</generatorConfiguration>

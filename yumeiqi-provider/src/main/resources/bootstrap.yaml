@@ -1,0 +1,23 @@
+logging.file: ./logs/yumeiqi-provider.log
+logging:
+  file:
+    max-history: 30
+
+dubbo:
+  scan:
+    base-packages: com.yumeiqi.api.impl
+  protocol:
+    name: dubbo
+    port: 20890
+  registry:
+    address: spring-cloud://localhost
+  cloud:
+    subscribed-services:
+
+spring:
+  application:
+    name: com-yumeiqi-yumeiqi-provider
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: dev

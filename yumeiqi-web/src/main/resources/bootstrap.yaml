@@ -1,0 +1,21 @@
+logging.file: ./logs/yumeiqi-web.log
+logging:
+  file:
+    max-history: 30
+
+dubbo:
+  registry:
+    address: spring-cloud://localhost
+  cloud:
+    subscribed-services: com-yumeiqi-yumeiqi-provider
+
+spring:
+  application:
+    name: com-yumeiqi-yumeiqi-web
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: dev
+
+server:
+  port: 8086

@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 39.105.211.35:8848
+        register-enabled: false
+
+dubbo:
+  application:
+    qos-enable: false

@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 39.105.211.35:8848
+        namespace: 235d7e0f-509e-47d7-aada-305ee44df41f
+
+  datasource:
+    yumeiqi:
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://39.105.211.35:3307/yumeiqi?useUnicode=true&characterEncoding=UTF8
+
+  thymeleaf:
+    cache: false # 热部署时禁用缓存
+    # prefix: classpath:/templates/ #autoconfig 默认的资源目录
+
+dubbo:
+  registry:
+    group: yumeiqi-service:dev
