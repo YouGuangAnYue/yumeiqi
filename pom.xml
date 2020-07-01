@@ -29,7 +29,7 @@
         <spring-cloud-commons.version>2.1.1.RELEASE</spring-cloud-commons.version>
         <spring-cloud-gateway.version>2.1.1.RELEASE</spring-cloud-gateway.version>
         <curator.version>4.0.1</curator.version>
-        <mysql-connector-java.version>5.1.47</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.16</mysql-connector-java.version>
         <io.springfox.version>2.7.0</io.springfox.version>
     </properties>
 
